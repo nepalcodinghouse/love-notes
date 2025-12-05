@@ -1,6 +1,8 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom'
 import Home from './pages/Home'
+import Chat from './pages/Chat'
+import Examples from './pages/Examples'
 import Navbar from './components/Navbar'
 
 import './App.css'
@@ -9,8 +11,8 @@ import './App.css'
 function ConditionalNavbar() {
   const location = useLocation()
   
-  // Only show navbar if not on home page
-  if (location.pathname === '/') {
+  // Hide navbar on chat page
+  if (location.pathname === '/chat') {
     return null
   }
   
@@ -24,6 +26,8 @@ function App() {
         <ConditionalNavbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/chat" element={<Chat />} />
+          <Route path="/examples" element={<Examples />} />
         </Routes>
       </Router>
     </>

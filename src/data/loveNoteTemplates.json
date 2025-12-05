@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "type": "love letter",
+    "title": "Romantic Declaration",
+    "content": "My dearest [NAME],\n\nEvery moment with you feels like a dream I never want to wake up from. Your smile lights up my world, and your touch sends shivers down my spine. I never believed in soulmates until I met you.\n\n[PERSONAL MESSAGE]\n\nForever yours,\n[YOUR NAME]"
+  },
+  {
+    "id": 2,
+    "type": "flirt",
+    "title": "Playful Teaser",
+    "content": "Hey beautiful,\n\nI was just thinking about you and couldn't help but smile. Do you know what you're doing to me? I can't stop thinking about our last conversation and how my heart raced when you laughed.\n\n[PERSONAL MESSAGE]\n\nCan't wait to hear from you,\n[YOUR NAME]"
+  },
+  {
+    "id": 3,
+    "type": "apology",
+    "title": "Heartfelt Apology",
+    "content": "My dear [NAME],\n\nI owe you an apology. I realize my actions hurt you, and I deeply regret causing you pain. You mean the world to me, and the last thing I ever want to do is hurt you.\n\n[PERSONAL MESSAGE]\n\nWith all my love and sincerity,\n[YOUR NAME]"
+  },
+  {
+    "id": 4,
+    "type": "appreciation",
+    "title": "Gratitude Expression",
+    "content": "To my amazing [NAME],\n\nI wanted to take a moment to tell you how grateful I am to have you in my life. Your kindness, strength, and love inspire me every day to be a better person.\n\n[PERSONAL MESSAGE]\n\nWith endless appreciation,\n[YOUR NAME]"
+  },
+  {
+    "id": 5,
+    "type": "romantic poem",
+    "title": "Eternal Love",
+    "content": "In your eyes, I see forever,\nIn your arms, I find my home.\nEvery beat of my heart whispers your name,\nIn this love, I'm never alone.\n\n[PERSONAL MESSAGE]\n\nYours eternally,\n[YOUR NAME]"
+  }
+]
