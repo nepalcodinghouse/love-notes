@@ -1,91 +1,18 @@
-# AI-Generated Love Notes
+# Love Letter Generator
 
-Welcome to AI-Generated Love Notes, a beautiful web application designed to create personalized love notes using artificial intelligence.
+A simple web application for generating personalized love letters and notes.
 
-## 🌟 Features
+## Features
+- Generate various types of love notes (love letters, flirty messages, apologies, appreciations, romantic poems)
+- Clean, responsive design
+- Direct integration with AI-powered love letter generation API
 
-- AI-powered love note generation
-- Beautiful, responsive design
-- Personalized messages
-- Easy to use interface
+## Usage
+1. Visit the homepage
+2. Select a note type
+3. Enter your thoughts and feelings
+4. Click "Generate Love Note" to open the AI-powered generator
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (version 14 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd ai-generated-love-notes
-   ```
-
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-### Running the Application
-
-To start the development server:
-
-```bash
-npm run dev
-```
-
-The application will be available at `http://localhost:5173` (or the next available port).
-
-### Building for Production
-
-To create a production build:
-
-```bash
-npm run build
-```
-
-To preview the production build locally:
-
-```bash
-npm run preview
-```
-
-## 🛠️ Technologies Used
-
-- React
-- Vite
-- Tailwind CSS
-- React Icons
-- React Router DOM
-
-## 📁 Project Structure
-
-```
-src/
-├── components/
-│   └── Navbar.jsx
-├── pages/
-│   └── Home.jsx
-├── App.css
-├── App.jsx
-└── main.jsx
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👨‍💻 Author
-
-Created with ❤️ for special moments.
+## Technical Details
+This application uses the Creaitor AI API endpoint for generating love letters:
+https://app.creaitor.ai/api/v1/ai-assistants/writer/love-letter

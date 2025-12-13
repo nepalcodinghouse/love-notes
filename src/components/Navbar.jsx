@@ -8,21 +8,18 @@ function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
-              <div className="h-8 w-8 rounded-full bg-blue-600 mr-3"></div>
+              <div className="h-8 w-8 rounded-full bg-black mr-3"></div>
               <Link to="/" className="text-xl font-bold text-gray-800">
-                AI Love Notes
+                Love Letter Generator
               </Link>
             </div>
           </div>
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">Home</Link>
-            <Link to="/chat" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">Chat</Link>
-            <Link to="/examples" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">Examples</Link>
-            <a href="#generate" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">Generate</a>
-            <a href="#about" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">About</a>
+            <Link to="/" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">Home</Link>
+            <Link to="/generator" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">Generator</Link>
           </div>
           <div className="flex items-center">
-            <button className="ml-4 px-4 py-2 rounded-md text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-300">
+            <button className="ml-4 px-4 py-2 rounded-md text-sm font-medium text-white bg-black hover:bg-gray-800 transition-colors duration-300">
               Get Started
             </button>
           </div>
